@@ -1,0 +1,53 @@
+.inspector-mode__info {
+  background-color: rgb(245, 196, 0);
+  left: 0;
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+}
+
+.inspector-mode__inspector {
+  align-items: center;
+  background-color: rgba(245, 196, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.15);
+  cursor: crosshair;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  position: fixed;
+  z-index: 99999999;
+}
+
+.inspector-mode__dimensions {
+  align-items: center;
+  background-color: rgba(255, 250, 230, 0.95);
+  border: 0.0625rem solid rgb(255, 170, 50);
+  color: #111;
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem;
+  text-wrap: nowrap;
+}
+
+.inspector-mode__tooltip {
+  align-items: center;
+  background-color: rgba(255, 250, 230, 0.95);
+  border: 0.0625rem solid rgb(255, 170, 50);
+  color: #111;
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem;
+  position: absolute;
+  text-wrap: nowrap;
+  z-index: 99999999;
+}
+
+.inspector-mode__info,
+.inspector-mode__inspector,
+.inspector-mode__dimensions,
+.inspector-mode__tooltip {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
